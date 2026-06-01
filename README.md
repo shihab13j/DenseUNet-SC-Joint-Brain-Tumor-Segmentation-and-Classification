@@ -272,22 +272,6 @@ labels = [0, 1, 2]
 ## Outputs
 
 After training and evaluation, outputs are saved in the `outputs/` directory.
-
-Typical output files include:
-
-```text
-outputs/
-├── results.json
-├── classification_baselines_results.json
-├── segmentation_baselines_results.json
-├── ablation_results.json
-├── fig7_accuracy_curve.png
-├── fig8_loss_curve.png
-├── fig9_dice_iou.png
-├── fig10_all_metrics.png
-└── perclass_confusion_matrix.png
-```
-
 The exact output files may vary depending on the experiment.
 
 ---
